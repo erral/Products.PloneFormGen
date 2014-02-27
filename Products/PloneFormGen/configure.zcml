@@ -133,6 +133,7 @@
 
   <subscriber handler=".events.form_adapter_pasted" />
   <subscriber handler=".events.form_adapter_moved" />
+  <subscriber handler=".events.populate_pfg_on_creation" />
 
   <adapter
       zcml:condition="installed collective.cover"
